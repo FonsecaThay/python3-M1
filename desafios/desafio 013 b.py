@@ -1,0 +1,5 @@
+p = float(input('Qual é o preço do produto?R$'))
+d = p - (p * 10 / 100)
+a = p + (p * 8 / 100)
+print(f'Produto pago à vista recebe 10% de desconto passando a custar R${d:.2f}')
+print(f'O produto parcelado terá 8% de aumento, passando a custar R${a:.2f}')
